@@ -1,3 +1,6 @@
+import groovy.json.JsonSlurperClassic
+import groovy.json.JsonOutput
+
 def getVersion(filename){
     def json = readFile(file: "${filename}")
     print(json)
